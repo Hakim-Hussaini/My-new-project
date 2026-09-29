@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+ 
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2e2e44;
+
+}
+.digital-clock{
+    position: relative;
+    color: #fff;
+    background: #2e2e44;
+    width: 500px;
+    padding: 30px 60px;
+    box-shadow: 0 20px 45px rgba(82, 87, 103, 0.8);
+    border-radius: 10px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.time{
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.hours, .dots, .minutes{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 0 10px;
+    line-height: 125px;
+    color: rgb(247, 185, 60);
+}
+.hours, .minutes{
+    font-size: 6.5em;
+    width: 125px;
+    
+}
+.dots{
+font-size: 5em;
+color: #929292;
+
+}
+.right-side{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.period, .seconds{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.period{
+    transform: translateY(-20px);
+}
+.seconds{
+    transform: translateY(16px);
+}
+.calender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: aqua;
+}
